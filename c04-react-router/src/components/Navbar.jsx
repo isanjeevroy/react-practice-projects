@@ -11,6 +11,7 @@ function Navbar() {
                 <NavLink to='/contact'>Contact</NavLink>
                 <NavLink to='/courses'>Courses</NavLink>
                 <NavLink to='/support'>Support</NavLink>
+                <NavLink to='/github'>Github</NavLink>
             </ul>
         </nav>
     </div>
