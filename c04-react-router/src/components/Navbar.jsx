@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
         <nav>
-            <ul>
+            <ul className='flex gap-6 w-[100vw] h-[70px] bg-zinc-300 items-center justify-center'>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='/about'>About</NavLink>
                 <NavLink to='/contact'>Contact</NavLink>
