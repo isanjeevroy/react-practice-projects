@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <h1>Just JOke</h1>
+     <h1>Practice Time</h1>
     </>
    
   )

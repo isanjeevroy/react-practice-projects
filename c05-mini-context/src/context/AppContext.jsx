@@ -1,10 +1,10 @@
 import { createContext, useState } from "react";
 import Check from "../Check";
 import Set from "../Set";
+
+
 //step 1
 export const AppContext = createContext();
-
-
 
 export default function AppContextProvider() {
 
