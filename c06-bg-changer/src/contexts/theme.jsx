@@ -29,7 +29,7 @@ export function ThemeContextProvider({ children }) {
 
   const value = { themeMode, lightMode, darkMode }
 
-
+// children hi set karni other things will not work
   return (
     <ThemeContext.Provider value={value}>
       {children}
