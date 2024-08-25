@@ -1,12 +1,12 @@
 import React, { useContext } from 'react'
-import {AppContext} from './context/AppContext'
+import { AppContext } from './context/AppContext'
 
 function App() {
 
   const {loading} = useContext(AppContext)
-  
+
   return (
-    <div>{loading?"Hello":"Media"}</div>
+    <div>{loading?"HEY":"BYE"}</div>
   )
 }
 

@@ -1,13 +1,15 @@
-import { createContext, useState } from 'react'
+import { createContext, useState } from "react";
 
 //step 1
-export const AppContext = createContext()
+export const AppContext = createContext();
+
+
 
 export default function AppContextProvider({ children }) {
 
     const [loading, setLoading] = useState(false)
 
-    const value = { loading, setLoading }
+    const value = { loading }
 
     //step 2
     return <AppContext.Provider value={value}>
