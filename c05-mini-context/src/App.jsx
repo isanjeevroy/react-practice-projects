@@ -1,12 +1,14 @@
 import React, { useContext } from 'react'
-import { AppContext } from './context/AppContext'
+import Check from './Check'
 
 function App() {
 
-  const {loading} = useContext(AppContext)
 
   return (
-    <div>{loading?"HEY":"BYE"}</div>
+    <>
+     <h1>Just JOke</h1>
+    </>
+   
   )
 }
 
