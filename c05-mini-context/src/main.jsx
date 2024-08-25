@@ -6,7 +6,10 @@ import AppContextProvider from './context/AppContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    <AppContextProvider />
+
+    <AppContextProvider>
+      <App />
+    </AppContextProvider>
+    
   </StrictMode>,
 )

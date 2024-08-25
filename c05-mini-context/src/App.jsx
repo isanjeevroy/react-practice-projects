@@ -1,12 +1,14 @@
 import React, { useContext } from 'react'
 import Check from './Check'
+import Set from './Set'
 
 function App() {
 
 
   return (
     <>
-     <h1>Practice Time</h1>
+      <Check/>
+      <Set/>
     </>
    
   )
