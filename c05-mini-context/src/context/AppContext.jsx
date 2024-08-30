@@ -8,6 +8,8 @@ export default function AppContextProvider({children}) {
     const [loading, setLoading] = useState(false)
 
     const value = { loading, setLoading }
+
+    // const AppContextProvider = AppContext.Provider
     //step 2
     return <AppContext.Provider value={value}>
        {children}
